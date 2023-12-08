@@ -1,0 +1,2 @@
+Dzieki pentlą programist może jedno razowo napisany kod meże powtarzeć 
+bez pisania nowej funkcji. Dzięki pentlą zaoszczędzamy czas na pisanie kodu.

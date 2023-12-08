@@ -1,0 +1,5 @@
+Zad1: D 
+Zad2: B
+Zad3: B
+Zad4: D
+Zad5: C 
