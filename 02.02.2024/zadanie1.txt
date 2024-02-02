@@ -1,0 +1,9 @@
+metoda get :
+zalety: jest wiekszy dostep do danych.
+wdady: cała jest widoczna w pasku adresu i ma ograniczenie znaków.
+
+
+
+post:
+zalety: nie jest widoczna w pasku adresu.
+wady: dane nie sa dostepne z zewnatrz
