@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Kantor walut</legend>
+        <form>
+            <p>
+                    <b>Kwota*:</b><input type="text" value="" name="kwota"></br><select name="waluta" value="" id="waluta">
+                    <input type="option" id="waluta">
+                    <option type="PLN">PLN</option>
+                    <option type="USD">USD</option>
+                    <option type="GBP">GBP</option>
+                    <option type="EUR">EUR</option>
+                    <option type="CHF">CHF</option>
+                </select>
+                    <small>* pole wymagane </small>
+                
+            </p>
+            <h1> Wybierz walute docelowa</h1>
+            <div> 
+                <label><input type="radio" id="PLN" name="PLN" value="PLN">PLN</label>
+                <label><input type="radio" id="USD" name="USD" value="USD">USD</label>
+                <label><input type="radio" id="GBP" name="GBP" value="GBP">GBP</label>
+                <label><input type="radio" id="EUR" name="EUR" value="EUR">EUR</label>
+                <label><input type="radio" id="CHF" name="CHF" value="CHF">CHF</label>
+            </div>
+        </form>
+    </fieldset>
+    <button onclick="Oblicz()">Przelicz:</button>
+    Otrzymasz:<div id="wynik"></div>
+    <script>
+        function Oblicz(){
+            var result = document.getElementById("wynik")
+            var kwota = 0;
+            var walutaz = document.getElementById(kwota).value;
+            var waluta = document.getElementById;
+            
+
+        }
+    </script>
+</body>
+</html>
